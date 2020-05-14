@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="top|center"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Device ID for ApkProtector 1.1.1"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_marginBottom="10dp"
+		android:layout_marginTop="10dp"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:gravity="center">
+
+		<TextView
+			android:text="OLD"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="2"
+			android:textColor="#FF000000"
+			android:gravity="left|center"
+			android:paddingLeft="10dp"/>
+
+		<TextView
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Text"
+			android:layout_weight="1.0"
+			android:textColor="#FF6A6969"
+			android:id="@+id/android_id_old"
+			android:textSize="14sp"
+			android:gravity="left|center"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:gravity="center">
+
+		<TextView
+			android:text="NEW"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="2"
+			android:textColor="#FF000000"
+			android:gravity="left|center"
+			android:paddingLeft="10dp"/>
+
+		<TextView
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Text"
+			android:layout_weight="1.0"
+			android:textColor="#FF6A6969"
+			android:id="@+id/android_id"
+			android:textSize="14sp"
+			android:gravity="left|center"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Created by Иван Тимашков 2020"
+		android:layout_weight="1.0"
+		android:gravity="bottom|center"
+		android:padding="10dp"/>
+
+</LinearLayout>
+
